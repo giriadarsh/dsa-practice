@@ -4,14 +4,14 @@ A collection of Dynamic Programming problems with explanations and solutions. Ea
 
 ## Table of Contents
 
-- [Longest Palindromic Subsequence](#problem-1-longest-palindromic-subsequence)
+- [Longest Palindromic Substring](#problem-1-longest-palindromic-subsequence)
 
 ---
 
 ### Problem 1: Longest Palindromic Subsequence
 **Description**: Given a string, find the length of the longest subsequence that is a palindrome. A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
 
-- **Solution**: [LongestPalindromicSubsequence.java](solutions/LongestPalindromicSubstring.java)
+- **Solution**: [LongestPalindromicSubstring.java](solutions/LongestPalindromicSubstring.java)
 
 ---
 
