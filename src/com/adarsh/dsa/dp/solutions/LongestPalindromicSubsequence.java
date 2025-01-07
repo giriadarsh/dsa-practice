@@ -21,6 +21,9 @@ public class LongestPalindromicSubsequence {
         // If characters at 'start' and 'end' match, include them
         if (str.charAt(start) == str.charAt(end)) {
             dp[start][end] = 2 + findLongestPalindromicSubsequence(str, dp, start + 1, end - 1);
+            // adding 2 directly with the longest palindromic subsequence is wrong, we should add 2 only when the
+            // substring with starting and ending index as start+1 and end-1 is a palindrome
+
         } else {
             // Else, find the max by excluding either the start or end character
             int size1 = findLongestPalindromicSubsequence(str, dp, start, end - 1);
